@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-francine-price/static/css/main.df070b80.css",
+    "main.js": "/portfolio-francine-price/static/js/main.aabf5c44.js",
+    "index.html": "/portfolio-francine-price/index.html",
+    "main.df070b80.css.map": "/portfolio-francine-price/static/css/main.df070b80.css.map",
+    "main.aabf5c44.js.map": "/portfolio-francine-price/static/js/main.aabf5c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df070b80.css",
+    "static/js/main.aabf5c44.js"
+  ]
+}
