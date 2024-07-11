@@ -1,0 +1,15 @@
+#home {
+    padding-top: 2rem; 
+    padding-bottom: 4rem; 
+  }
+
+#home h3 {
+    font-size: 1.75rem; 
+  }
+
+  @media (max-width: 768px) {   
+    #home {
+      padding-top: 0;
+      padding-bottom: 2rem;
+    }
+  }

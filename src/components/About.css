@@ -1,0 +1,19 @@
+.about-image img {
+    margin-top: 8rem; 
+    margin-left: 2rem;
+  }
+  
+.about-text {
+  padding-left: 6rem;
+}
+ 
+@media (max-width: 768px) {   
+  .about-image img {
+    margin: 0 auto; 
+    display: block;     
+  }
+
+  .about-text {
+    padding-left: 2rem;
+  }
+}

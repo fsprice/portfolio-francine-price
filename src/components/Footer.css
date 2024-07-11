@@ -1,0 +1,7 @@
+.footer-icon {
+    transition: transform 0.2s ease-out;
+  }
+  
+  .footer-icon:hover {
+    transform: translateY(-5px);
+  }

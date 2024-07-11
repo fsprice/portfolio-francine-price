@@ -1,0 +1,17 @@
+.project-card {
+    overflow: hidden; 
+    transition: transform 0.2s ease-out; 
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .project-image {
+    transition: transform 0.2s ease-out; 
+  }
+  
+  .project-card:hover .project-image {
+    transform: scale(1.1); 
+  }
+

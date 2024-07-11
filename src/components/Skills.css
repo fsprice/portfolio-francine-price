@@ -1,0 +1,7 @@
+.gallery-image {
+  transition: transform 0.2s ease-out; 
+}
+
+.gallery-image:hover {
+  transform: translateY(-10px); 
+}

@@ -1,0 +1,50 @@
+.timeline {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline-item {
+    max-width: 65%; /* Adjusted for responsiveness */
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(248, 249, 250, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(236, 125, 231);
+  }
+  
+  .timeline-content {
+    width: 100%;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .timeline-content .education,
+  .timeline-content .location,
+  .timeline-content .date,
+  .timeline-content .description {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    word-wrap: break-word; 
+  }
+  
